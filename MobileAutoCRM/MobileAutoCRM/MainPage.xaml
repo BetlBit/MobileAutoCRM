@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAutoCRM.MainPage">
+
+    <StackLayout>
+        <Label Text="Регистрация" FontSize="25" />
+        <Entry x:Name="nameField" Placeholder="Введите имя" />
+        <Entry x:Name="mailField" Placeholder="Введите почту" />
+        <Entry x:Name="passField" Placeholder="Введите пароль" />
+
+        <Label Text="Вы согласны зарегистрироваться?" />
+        <CheckBox x:Name="checkField" />
+
+        <Button x:Name="buttonSend" Text="Отправить" Clicked="ButtonClick" />
+        <Label x:Name="errorText" Text="" TextColor="Red" FontSize="15" />
+    </StackLayout>
+
+</ContentPage>

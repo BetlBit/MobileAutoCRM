@@ -1,0 +1,15 @@
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\bin\Debug\netstandard2.0\MobileAutoCRM.deps.json
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\bin\Debug\netstandard2.0\MobileAutoCRM.dll
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\bin\Debug\netstandard2.0\ref\MobileAutoCRM.dll
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\bin\Debug\netstandard2.0\MobileAutoCRM.pdb
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.csproj.AssemblyReference.cache
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.AssemblyInfoInputs.cache
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.AssemblyInfo.cs
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.csproj.CoreCompileInputs.cache
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.dll
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\refint\MobileAutoCRM.dll
+C:\Users\BetlBit\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.pdb
