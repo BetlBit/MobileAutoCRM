@@ -3408,24 +3408,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\BetlBit\\.nuget\\packages\\": {},
+    "C:\\Users\\Tobias\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.Android\\MobileAutoCRM.Android.csproj",
+      "projectUniqueName": "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.Android\\MobileAutoCRM.Android.csproj",
       "projectName": "MobileAutoCRM.Android",
-      "projectPath": "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.Android\\MobileAutoCRM.Android.csproj",
-      "packagesPath": "C:\\Users\\BetlBit\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.Android\\obj\\",
+      "projectPath": "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.Android\\MobileAutoCRM.Android.csproj",
+      "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.Android\\obj\\",
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\BetlBit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Tobias\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -3439,8 +3439,8 @@
       "frameworks": {
         "monoandroid13.0": {
           "projectReferences": {
-            "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj": {
-              "projectPath": "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj"
+            "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj": {
+              "projectPath": "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj"
             }
           }
         }

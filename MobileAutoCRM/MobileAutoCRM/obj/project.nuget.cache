@@ -1,14 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "b0NxembHg9OyVMx295oUSWNOLdbtjA6K0TrIARloM/OV9ybWUYABQ/kavLR3PLGGNyhS0C3kSdi+8fEacpzOGA==",
+  "dgSpecHash": "68U9nC5JgufJ2oVcy4syEgzumQHQMiFgNFIm+8lpAK1/rkvoMdx52s2Q++pkRCJGO1LnSRJ3eBLXeco5TflFPQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj",
+  "projectFilePath": "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\BetlBit\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\BetlBit\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
-    "C:\\Users\\BetlBit\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\BetlBit\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\BetlBit\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Tobias\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\Tobias\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Tobias\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Tobias\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Tobias\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }

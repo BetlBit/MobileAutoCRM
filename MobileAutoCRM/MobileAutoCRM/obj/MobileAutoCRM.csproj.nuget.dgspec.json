@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj": {}
+    "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj": {}
   },
   "projects": {
-    "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj": {
+    "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj",
+        "projectUniqueName": "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj",
         "projectName": "MobileAutoCRM",
-        "projectPath": "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj",
-        "packagesPath": "C:\\Users\\BetlBit\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\obj\\",
+        "projectPath": "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.csproj",
+        "packagesPath": "C:\\Users\\Tobias\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\BetlBit\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Tobias\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],

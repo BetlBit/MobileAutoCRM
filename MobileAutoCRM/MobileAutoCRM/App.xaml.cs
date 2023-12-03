@@ -10,7 +10,7 @@ namespace MobileAutoCRM
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new NavigationPage(new RegPage());
         }
 
         protected override void OnStart()

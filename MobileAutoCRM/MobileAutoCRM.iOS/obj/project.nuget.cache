@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "uqb692CK+a5SVzNP36+8yw4I2eTYX0Eaa/7XPTbZKw5vvN0PPtxPZU4LQwwjYNtRufGXCDXjbW3UaRruFQV7ZQ==",
+  "dgSpecHash": "SgJ3ID3VmlG6ZK6mC4XH3Yz2pkaTcGBg37OtnpYhM9i4PUvpC8sD+zT+kttr3sJx6oIDwREz/KXovh/BfOia+Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\BetlBit\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.iOS\\MobileAutoCRM.iOS.csproj",
+  "projectFilePath": "C:\\Users\\Tobias\\Desktop\\MobileAutoCRM\\MobileAutoCRM\\MobileAutoCRM.iOS\\MobileAutoCRM.iOS.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\BetlBit\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
-    "C:\\Users\\BetlBit\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
-    "C:\\Users\\BetlBit\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+    "C:\\Users\\Tobias\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\Tobias\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\Tobias\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
   ],
   "logs": []
 }
