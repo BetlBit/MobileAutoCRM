@@ -15,6 +15,14 @@ namespace MobileAutoCRM
             InitializeComponent();
         }
 
-        
+        protected override void OnAppearing()
+        {
+            ShowServices();
+        }
+
+        private void ShowServices()
+        {
+            serviceCollection.ItemsSource = App.Db.GetServices();
+        }
     }
 }

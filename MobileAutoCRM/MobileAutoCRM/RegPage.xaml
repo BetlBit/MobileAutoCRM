@@ -12,8 +12,10 @@
 			<Label Text="Вы согласны зарегистрироваться?" />
 			<CheckBox Color="Gray" x:Name="checkField" />
 
-			<Button x:Name="buttonSend" Text="Отправить" Clicked="ButtonClick" />
+            <Button x:Name="buttonSend" Text="Зарегистрироваться" Clicked="RegPageToCustPage" />
 			<Label x:Name="errorText" Text="" TextColor="Red" FontSize="15" />
-		</StackLayout>
+
+            <Button x:Name="buttonToAdmonPage" Text="На админку" Clicked="RegPageToAdminPage" />
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>

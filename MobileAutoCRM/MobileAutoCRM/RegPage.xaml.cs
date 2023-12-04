@@ -17,7 +17,7 @@ namespace MobileAutoCRM
             InitializeComponent();
         }
 
-        private async void ButtonClick(object sender, EventArgs e)
+        private async void RegPageToCustPage(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(nameField.Text))
                 errorText.Text = "Имя не указано";
@@ -34,6 +34,11 @@ namespace MobileAutoCRM
                 buttonSend.TextColor = Color.Green;
                 await Navigation.PushAsync(new MainPageCust());
             }
+        }
+
+        private async void RegPageToAdminPage(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new MainPageAdmin());
         }
     }
 }
