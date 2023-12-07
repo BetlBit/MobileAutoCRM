@@ -1,4 +1,5 @@
 ﻿using System;
+using SQLite;
 using System.Collections.Generic;
 using System.Linq;
 using System.Security.Authentication.ExtendedProtection;
@@ -52,9 +53,18 @@ namespace MobileAutoCRM
             descService.Text = "";
         }
 
+        private async void DeleteServiceButton(object sender, EventArgs e)
+        {
+            int number = Convert.ToInt32(deleteNumber.Text.Trim());
+            await Task.Run(() => App.Db.DeleteService(number));
+            
+            deleteNumber.Text = "";
+        }
+
         private async void AdminPageToCustPage(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPageCust());
         }
+
     }
 }
