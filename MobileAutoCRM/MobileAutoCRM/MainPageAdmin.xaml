@@ -2,6 +2,8 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileAutoCRM.MainPageAdmin">
+    
+    
     <ContentPage.Content>
         <StackLayout Margin="15">
             <Label Text="Добавьте услугу:"/>
@@ -10,6 +12,10 @@
             <Editor x:Name="descService" Placeholder="Описание услуги" HeightRequest="200" />
             <Button Text="Добавить услугу" Clicked="AddServiceButton" />
             <Button Text="Главная страница" Clicked="AdminPageToCustPage" />
+            
+            <Label Text="Удалите услугу:" />
+            <Entry x:Name="deleteNumber" Placeholder="Введите ID номер услуги" />
+            <Button Text="Удалить услугу" Clicked="DeleteServiceButton" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
