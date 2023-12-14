@@ -2,20 +2,12 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileAutoCRM.MainPageAdmin">
-    
-    
     <ContentPage.Content>
         <StackLayout Margin="15">
-            <Label Text="Добавьте услугу:"/>
-            <Entry x:Name="nameService" Placeholder="Название услуги" />
-            <Entry x:Name="priceService" Placeholder="Цена услуги" />
-            <Editor x:Name="descService" Placeholder="Описание услуги" HeightRequest="200" />
-            <Button Text="Добавить услугу" Clicked="AddServiceButton" />
-            <Button Text="Главная страница" Clicked="AdminPageToCustPage" />
-            
-            <Label Text="Удалите услугу:" />
-            <Entry x:Name="deleteNumber" Placeholder="Введите ID номер услуги" />
-            <Button Text="Удалить услугу" Clicked="DeleteServiceButton" />
+            <Button x:Name="buttonToListService" Text="Список сервисов" Clicked="RegPageToPageAdminListService" />
+            <Button x:Name="buttonToAddService" Text="Добавить сервис" Clicked="RegPageToPageAdminAddService" />
+            <Button x:Name="buttonToDelService" Text="Удалить сервис" Clicked="RegPageToPageAdminDelService" />
+            <Button x:Name="buttonToMainPageCust" Text="На главный экран" Clicked="MainPageAdminToMainPageCust" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
