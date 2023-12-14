@@ -4,12 +4,10 @@
              x:Class="MobileAutoCRM.MainPageAdmin">
     <ContentPage.Content>
         <StackLayout Margin="15">
-            <Label Text="Добавьте услугу:"/>
-            <Entry x:Name="nameService" Placeholder="Название услуги" />
-            <Entry x:Name="priceService" Placeholder="Цена услуги" />
-            <Editor x:Name="descService" Placeholder="Описание услуги" HeightRequest="200" />
-            <Button Text="Добавить услугу" Clicked="AddServiceButton" />
-            <Button Text="Главная страница" Clicked="AdminPageToCustPage" />
+            <Button x:Name="buttonToListService" Text="Список сервисов" Clicked="RegPageToPageAdminListService" />
+            <Button x:Name="buttonToAddService" Text="Добавить сервис" Clicked="RegPageToPageAdminAddService" />
+            <Button x:Name="buttonToDelService" Text="Удалить сервис" Clicked="RegPageToPageAdminDelService" />
+            <Button x:Name="buttonToMainPageCust" Text="На главный экран" Clicked="MainPageAdminToMainPageCust" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

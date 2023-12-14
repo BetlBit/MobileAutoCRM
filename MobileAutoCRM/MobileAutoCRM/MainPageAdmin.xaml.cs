@@ -18,41 +18,22 @@ namespace MobileAutoCRM
             InitializeComponent();
         }
 
-        private async void AddServiceButton(object sender, EventArgs e)
+        private async void RegPageToPageAdminAddService(object sender, EventArgs e)
         {
-            string name = nameService.Text.Trim();
-            int price = Convert.ToInt32(priceService.Text.Trim());
-            string desc = descService.Text.Trim();
-            if (name.Length <= 1)
-            {
-                await DisplayAlert("Ошибка добавления", "Название слишком короткое", "Ок");
-                return;
-            }
-            else if (price <= 100)
-            {
-                await DisplayAlert("Ошибка добавления", "Цена слишком низкая (не ниже 100)", "Ок");
-                return;
-            }
-            else if (desc.Length <= 5) 
-            {
-                await DisplayAlert("Ошибка добавления", "Описание слишком короткое", "Ок");
-                return;
-            }
-
-            Service service = new Service
-            {
-                Name = name,
-                Price = price,
-                Description = desc,
-            };
-            App.Db.SaveService(service);
-
-            nameService.Text = "";
-            priceService.Text = "";
-            descService.Text = "";
+            await Navigation.PushAsync(new PageAdminAddService());
         }
 
-        private async void AdminPageToCustPage(object sender, EventArgs e)
+        private async void RegPageToPageAdminDelService(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PageAdminDelService());
+        }
+
+        private async void RegPageToPageAdminListService(object sender, EventArgs e)
+        {
+            await Navigation.PushAsync(new PageAdminListService());
+        }
+
+        private async void MainPageAdminToMainPageCust(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPageCust());
         }

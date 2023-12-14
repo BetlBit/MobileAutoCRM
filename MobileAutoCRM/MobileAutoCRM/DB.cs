@@ -24,5 +24,10 @@ namespace MobileAutoCRM
         {
             return _connection.Insert(service);
         }
+
+        internal int DeleteService(int id)
+        {
+            return _connection.Delete<Service>(id);
+        }
     }
 }
