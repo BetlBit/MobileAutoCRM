@@ -24,10 +24,5 @@ namespace MobileAutoCRM
         {
             serviceCollection.ItemsSource = App.Db.GetServices();
         }
-
-        /*private void DeleteServices()
-        {
-            serviceCollection.ItemsSource = App.Db.DeleteService();
-        }*/
     }
 }

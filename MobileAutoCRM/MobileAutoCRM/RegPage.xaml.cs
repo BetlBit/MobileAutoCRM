@@ -1,6 +1,10 @@
-﻿using System;
+﻿using SQLite;
+using System;
 using System.Collections.Generic;
+using System.Data.Common;
+using System.Diagnostics;
 using System.Linq;
+using System.Security.Cryptography;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -29,16 +33,31 @@ namespace MobileAutoCRM
                 errorText.Text = "Вы не подтвердили согласие на регистрацию";
             else
             {
+                string name = nameField.Text;
+                string password = passField.Text;
+                string email = mailField.Text;
+
+                Users user = new Users
+                {
+                    Name = name,
+                    Password = password,
+                    Email = email,
+                };
+                try { App.Db.SaveUser(user); }
+                catch (SQLiteException)
+                {
+                    await DisplayAlert("Ошибка", "Такой пользователь уже существует", "Ок");
+                    return;
+                }
+
+                nameField.Text = "";
+                mailField.Text = "";
+                passField.Text = "";
+
                 errorText.Text = "";
-                buttonSend.Text = "Зарегистрироваться";
-                buttonSend.TextColor = Color.Green;
+
                 await Navigation.PushAsync(new MainPageCust());
             }
-        }
-
-        private async void RegPageToAdminPage(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new MainPageAdmin());
         }
     }
 }

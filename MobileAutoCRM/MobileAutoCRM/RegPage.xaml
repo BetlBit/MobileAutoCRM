@@ -13,9 +13,7 @@
 			<CheckBox Color="Gray" x:Name="checkField" />
 
             <Button x:Name="buttonSend" Text="Зарегистрироваться" Clicked="RegPageToCustPage" />
-			<Label x:Name="errorText" Text="" TextColor="Red" FontSize="15" />
-
-            <Button x:Name="buttonToAdminPage" Text="На админку" Clicked="RegPageToAdminPage" />
+            <Label x:Name="errorText" Text="" TextColor="Red" FontSize="15" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>
