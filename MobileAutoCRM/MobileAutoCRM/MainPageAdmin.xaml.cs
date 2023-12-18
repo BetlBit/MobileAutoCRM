@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Security.Authentication.ExtendedProtection;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -18,22 +17,17 @@ namespace MobileAutoCRM
             InitializeComponent();
         }
 
-        private async void RegPageToPageAdminAddService(object sender, EventArgs e)
+        private async void ToAdminServices(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new PageAdminAddService());
+            await Navigation.PushAsync(new MainPageAdminService());
         }
 
-        private async void RegPageToPageAdminDelService(object sender, EventArgs e)
+        private async void ToAdminUsers(object sender, EventArgs e)
         {
-            await Navigation.PushAsync(new PageAdminDelService());
+            await Navigation.PushAsync(new PageAdminUsers());
         }
 
-        private async void RegPageToPageAdminListService(object sender, EventArgs e)
-        {
-            await Navigation.PushAsync(new PageAdminListService());
-        }
-
-        private async void MainPageAdminToMainPageCust(object sender, EventArgs e)
+        private async void ToMainPageCust(object sender, EventArgs e)
         {
             await Navigation.PushAsync(new MainPageCust());
         }

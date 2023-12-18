@@ -25,7 +25,7 @@ namespace MobileAutoCRM
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new RegPage());
+            MainPage = new NavigationPage(new LoginOrReg());
         }
 
         protected override void OnStart()

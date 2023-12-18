@@ -11,8 +11,10 @@ namespace MobileAutoCRM
         [PrimaryKey, AutoIncrement, Column("ID_")]
         public int ID { get; set; }
 
+        [Unique]
         public string Name { get; set; }
         public string Password { get; set; }
+        [Unique]
         public string Email { get; set; }
 
     }
