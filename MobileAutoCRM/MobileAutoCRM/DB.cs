@@ -12,7 +12,12 @@ namespace MobileAutoCRM
         public DB(string path)
         {
             _connection = new SQLiteConnection(path);
-            _connection.CreateTable<Service>();
+            try { _connection.CreateTable<Service>(); } 
+            catch (SQLite.SQLiteException)
+            {
+                Console.WriteLine("Ошибка создания таблицы - она уже создана");
+            }
+            
         }
 
         public List<Service> GetServices() 
