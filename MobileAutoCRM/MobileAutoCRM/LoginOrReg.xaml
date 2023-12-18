@@ -7,10 +7,6 @@
             <Label Text="Авторизация" FontSize="25" />
             <Entry x:Name="nameField" Placeholder="Введите имя" />
             <Entry x:Name="passField" Placeholder="Введите пароль" />
-
-            <!--проверка метода на 1. существует ли 
-                    такой пользователь в бд 2. Если да - переход на MainPageCust. 3. Если нет - ошибка
-                    4. Если админ - переход на MainPageAdmin"-->
             <Button x:Name="buttonLogin" Text="Войти" Clicked="Login" />
             <Button x:Name="buttonToReg" Text="Зарегистрироваться" Clicked="ToRegPage" />
             
