@@ -14,7 +14,10 @@
 
                         <StackLayout Margin="0,0,0,10">
                             <StackLayout BackgroundColor="LightCyan" >
-                                <Label Text="{Binding ID}" />
+                                <StackLayout Orientation="Horizontal" >
+                                    <Label Text="ID товара: " />
+                                    <Label Text="{Binding ID}" />
+                                </StackLayout>
                                 <Label Text="{Binding Name}" />
                                 <Label Text="{Binding Description}" />
                                 <StackLayout Orientation="Horizontal" >
