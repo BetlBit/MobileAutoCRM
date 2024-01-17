@@ -1,4 +1,5 @@
-﻿using SQLite;
+﻿using Firebase.Database;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.Data.Common;
@@ -21,6 +22,15 @@ namespace MobileAutoCRM
             InitializeComponent();
         }
 
+        private async void Button_Clicked(object sender, EventArgs e)
+        {
+            using (var firebase = new FirebaseClient("https://mobileautocrm-default-rtdb.firebaseio.com/"))
+            {
+                var result = await firebase.Child("test_key").OnceSingleAsync<string>();
+                await DisplayAlert("title", result, "Ok");
+            }
+        }
+
         private async void RegPageToCustPage(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(nameField.Text))
@@ -31,13 +41,16 @@ namespace MobileAutoCRM
                 errorText.Text = "Пароль не указан";
             else if (!checkField.IsChecked)
                 errorText.Text = "Вы не подтвердили согласие на регистрацию";
+            else if (string.IsNullOrEmpty(passField2.Text))
+                errorText.Text = "Повторите пароль снова";
             else
             {
                 string name = nameField.Text;
                 string password = passField.Text;
                 string email = mailField.Text;
 
-                Users user = new Users
+                /*var firebase = DependencyService.Get<IFirebaseAuth>();*/
+                /*Users user = new Users
                 {
                     Name = name,
                     Password = password,
@@ -48,7 +61,7 @@ namespace MobileAutoCRM
                 {
                     await DisplayAlert("Ошибка", "Такой пользователь уже существует", "Ок");
                     return;
-                }
+                }*/
 
                 nameField.Text = "";
                 mailField.Text = "";

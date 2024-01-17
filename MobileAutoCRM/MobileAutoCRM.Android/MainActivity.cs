@@ -12,6 +12,7 @@ namespace MobileAutoCRM.Droid
     {
         protected override void OnCreate(Bundle savedInstanceState)
         {
+            Firebase.FirebaseApp.InitializeApp(Application.Context);
             base.OnCreate(savedInstanceState);
 
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);

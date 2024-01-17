@@ -30,6 +30,7 @@ FrameLayout;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.An
 item;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\100\jl\res\values\styles.xml
 LinearLayout;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\100\jl\res\layout\bottomtablayout.xml
 paths;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\99\jl\res\xml\xamarin_essentials_fileprovider_file_paths.xml
+resources;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\googsvcsjson\values\goog_svcs_json.xml
 resources;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\100\jl\res\values\attrs.xml
 resources;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\100\jl\res\values\strings.xml
 resources;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\100\jl\res\values\styles.xml
@@ -39,6 +40,7 @@ set;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\ob
 set;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\100\jl\res\anim\enterfromright.xml
 set;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\100\jl\res\anim\exittoleft.xml
 set;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\100\jl\res\anim\exittoright.xml
+string;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\googsvcsjson\values\goog_svcs_json.xml
 string;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\100\jl\res\values\strings.xml
 style;C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.Android\obj\Release\130\lp\100\jl\res\values\styles.xml
 style;obj\Release\130\res\values\styles.xml
