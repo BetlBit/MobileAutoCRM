@@ -12,49 +12,50 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="FirebaseDatabase.net" Version="4.2.0" />
     <PackageReference Include="sqlite-net-pcl" Version="1.8.116" />
-    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2196" />
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2622" />
     <PackageReference Include="Xamarin.Essentials" Version="1.7.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="MainPageAdminService.xaml.cs">
+    <Compile Update="MainPageAdmin\MainPageAdminService.xaml.cs">
       <DependentUpon>MainPageAdminService.xaml</DependentUpon>
     </Compile>
     <Compile Update="MainPageCust.xaml.cs">
       <DependentUpon>MainPageCust.xaml</DependentUpon>
     </Compile>
-    <Compile Update="PageAdminAddService.xaml.cs">
+    <Compile Update="MainPageAdmin\AdminServices\PageAdminAddService.xaml.cs">
       <DependentUpon>PageAdminAddService.xaml</DependentUpon>
     </Compile>
   </ItemGroup>
 
   <ItemGroup>
-    <EmbeddedResource Update="LoginOrReg.xaml">
+    <EmbeddedResource Update="LoginReg\LoginOrReg.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="MainPageAdmin.xaml">
+    <EmbeddedResource Update="MainPageAdmin\MainPageAdmin.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="MainPageAdminService.xaml">
+    <EmbeddedResource Update="MainPageAdmin\MainPageAdminService.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
     <EmbeddedResource Update="MainPageCust.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="PageAdminAddService.xaml">
+    <EmbeddedResource Update="MainPageAdmin\AdminServices\PageAdminAddService.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="PageAdminDelService.xaml">
+    <EmbeddedResource Update="MainPageAdmin\AdminServices\PageAdminDelService.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="PageAdminListService.xaml">
+    <EmbeddedResource Update="MainPageAdmin\AdminServices\PageAdminListService.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="PageAdminUsers.xaml">
+    <EmbeddedResource Update="MainPageAdmin\PageAdminUsers.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="RegPage.xaml">
+    <EmbeddedResource Update="LoginReg\RegPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

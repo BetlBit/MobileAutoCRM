@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "588979840964",
+    "project_id": "mobileautocrm",
+    "storage_bucket": "mobileautocrm.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:588979840964:android:b5f7cf4cd6161e13bd6691",
+        "android_client_info": {
+          "package_name": "com.companyname.mobileautocrm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCbjnjhWGlH75D8Ph2RmjDji6oYw--0Nzo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

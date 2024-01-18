@@ -103,3 +103,8 @@ Xamarin.Forms.Platform.dll
 Xamarin.Google.Android.Material.dll
 Xamarin.Google.Guava.ListenableFuture.dll
 SQLitePCLRaw.lib.e_sqlite3.android.dll
+Xamarin.Firebase.Auth.dll
+Xamarin.Firebase.Common.dll
+Xamarin.GooglePlayServices.Base.dll
+Xamarin.GooglePlayServices.Basement.dll
+Xamarin.GooglePlayServices.Tasks.dll
