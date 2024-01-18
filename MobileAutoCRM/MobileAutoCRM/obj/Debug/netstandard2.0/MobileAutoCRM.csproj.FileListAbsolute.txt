@@ -20,7 +20,6 @@ C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\bin\Debug\nets
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.csproj.AssemblyReference.cache
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\App.xaml.g.cs
-C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\RegPage.xaml.g.cs
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.AssemblyInfoInputs.cache
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.AssemblyInfo.cs
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.csproj.CoreCompileInputs.cache
@@ -29,11 +28,12 @@ C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\nets
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.dll
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\refint\MobileAutoCRM.dll
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.pdb
-C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MainPageAdmin.xaml.g.cs
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MainPageCust.xaml.g.cs
-C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\PageAdminAddService.xaml.g.cs
-C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\PageAdminListService.xaml.g.cs
-C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\PageAdminDelService.xaml.g.cs
-C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\LoginOrReg.xaml.g.cs
-C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MainPageAdminService.xaml.g.cs
-C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\PageAdminUsers.xaml.g.cs
+C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\LoginReg\LoginOrReg.xaml.g.cs
+C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\LoginReg\RegPage.xaml.g.cs
+C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MainPageAdmin\AdminServices\PageAdminAddService.xaml.g.cs
+C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MainPageAdmin\AdminServices\PageAdminDelService.xaml.g.cs
+C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MainPageAdmin\AdminServices\PageAdminListService.xaml.g.cs
+C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MainPageAdmin\MainPageAdmin.xaml.g.cs
+C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MainPageAdmin\MainPageAdminService.xaml.g.cs
+C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MainPageAdmin\PageAdminUsers.xaml.g.cs

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MobileAutoCRM.PageAdminUsers">
+    <ContentPage.Content>
+        <CollectionView x:Name="usersCollection">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+
+                    <StackLayout Margin="0,0,0,10">
+                        <StackLayout BackgroundColor="LightCyan" >
+                            <StackLayout Orientation="Horizontal" >
+                                <Label Text="ID пользователя: " />
+                                <Label Text="{Binding ID}" />
+                            </StackLayout>
+                            <Label Text="{Binding Name}" />
+                            <Label Text="{Binding Password}" />
+                            <Label Text="{Binding Email}" />
+                        </StackLayout>
+                    </StackLayout>
+
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </ContentPage.Content>
+</ContentPage>
