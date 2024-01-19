@@ -2,8 +2,9 @@
   "ExpandedNodes": [
     "",
     "\\MobileAutoCRM",
-    "\\MobileAutoCRM\\MobileAutoCRM"
+    "\\MobileAutoCRM\\MobileAutoCRM",
+    "\\MobileAutoCRM\\MobileAutoCRM.Android"
   ],
-  "SelectedNode": "\\MobileAutoCRM\\MobileAutoCRM\\App.xaml.cs",
+  "SelectedNode": "\\MobileAutoCRM\\MobileAutoCRM.Android\\FirebaseAuthenticator.cs",
   "PreviewInSolutionExplorer": false
 }

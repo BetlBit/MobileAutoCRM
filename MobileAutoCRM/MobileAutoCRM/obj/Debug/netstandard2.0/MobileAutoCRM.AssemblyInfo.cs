@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MobileAutoCRM")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2fffa38b2f57d041e471a4901283673973f10754")]
 [assembly: System.Reflection.AssemblyProductAttribute("MobileAutoCRM")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MobileAutoCRM")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
