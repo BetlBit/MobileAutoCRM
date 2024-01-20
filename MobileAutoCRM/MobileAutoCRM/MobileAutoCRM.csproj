@@ -19,6 +19,12 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Reference Include="MobileAutoCRM.Android">
+      <HintPath>..\MobileAutoCRM.Android\bin\Debug\MobileAutoCRM.Android.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="MainPageAdmin\MainPageAdminService.xaml.cs">
       <DependentUpon>MainPageAdminService.xaml</DependentUpon>
     </Compile>
