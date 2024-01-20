@@ -26,26 +26,39 @@ namespace MobileAutoCRM
 
         private async void Login(object sender, EventArgs e)
         {
-            if (string.IsNullOrEmpty(nameField.Text))
-                errorText.Text = "Имя не указано";
+            if (string.IsNullOrEmpty(mailField.Text))
+                errorText.Text = "Почта не указана";
             else if (string.IsNullOrEmpty(passField.Text))
                 errorText.Text = "Пароль не указан";
-            else if (nameField.Text == "AdminAdmin" && passField.Text == "12345")
+            else if (mailField.Text == "AdminAdmin" && passField.Text == "12345")
                 await Navigation.PushAsync(new MainPageAdmin());
+            else if (passField.Text.Length < 6)
+                errorText.Text = "Слишком короткий пароль";
             else
             {
-                string name = nameField.Text;
+                string mail = mailField.Text;
                 string password = passField.Text;
 
-                bool sqlName = App.Db.CompareUser($"SELECT * FROM Users WHERE Name like '{name}'");
-                bool sqlPass = App.Db.CompareUser($"SELECT * FROM Users WHERE Password like '{password}'");
-                
-                if (sqlName == true && sqlPass == true)
+                var firebase = DependencyService.Get<IFirebaseAuthenticator>();
+                try
+                {
+                    var token = await firebase.SignInWithEmailAndPassAsync(mail, password);
+                    await DisplayAlert("Успешно", $"Пользователь {mail} был авторизирован", "Ок");
                     await Navigation.PushAsync(new MainPageCust());
+                }
+                catch (Exception ex) 
+                {
+                    await DisplayAlert("Error", ex.Message, "Ok");
+                }
 
-                nameField.Text = "";
+                //bool sqlName = App.Db.CompareUser($"SELECT * FROM Users WHERE Name like '{name}'");
+                //bool sqlPass = App.Db.CompareUser($"SELECT * FROM Users WHERE Password like '{password}'");
+
+                //if (sqlName == true && sqlPass == true)
+                //    await Navigation.PushAsync(new MainPageCust());
+
+                mailField.Text = "";
                 passField.Text = "";
-
                 errorText.Text = "";
 
             }

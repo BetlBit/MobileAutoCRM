@@ -7,8 +7,8 @@
 			<Label Text="Регистрация" FontSize="25" />
 			<Entry x:Name="nameField" Placeholder="Введите имя" />
 			<Entry x:Name="mailField" Placeholder="Введите почту" />
-			<Entry x:Name="passField" Placeholder="Введите пароль" />
-            <Entry x:Name="passField2" Placeholder="Повтор пароля" />
+			<Entry x:Name="passField" Placeholder="Введите пароль" IsPassword="True" />
+            <Entry x:Name="passField2" Placeholder="Повтор пароля" IsPassword="True" />
 
 			<Label Text="Вы согласны зарегистрироваться?" />
 			<CheckBox Color="Gray" x:Name="checkField" />

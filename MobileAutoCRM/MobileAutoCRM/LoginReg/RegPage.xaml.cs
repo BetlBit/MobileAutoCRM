@@ -1,14 +1,6 @@
 ﻿using Firebase.Database;
 using SQLite;
 using System;
-using System.Collections.Generic;
-using System.Data.Common;
-using System.Diagnostics;
-using System.Linq;
-using System.Security.Cryptography;
-using System.Text;
-using System.Threading.Tasks;
-
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -43,25 +35,41 @@ namespace MobileAutoCRM
                 errorText.Text = "Вы не подтвердили согласие на регистрацию";
             else if (string.IsNullOrEmpty(passField2.Text))
                 errorText.Text = "Повторите пароль снова";
+            else if (passField2.Text != passField.Text)
+                errorText.Text = "Пароль не одинаковый";
             else
             {
-                string name = nameField.Text;
                 string password = passField.Text;
                 string email = mailField.Text;
 
-                /*var firebase = DependencyService.Get<IFirebaseAuth>();*/
-                /*Users user = new Users
+                var firebase = DependencyService.Get<IFirebaseAuthenticator>();
+
+                try
                 {
-                    Name = name,
-                    Password = password,
-                    Email = email,
-                };
-                try { App.Db.SaveUser(user); }
-                catch (SQLiteException)
+                    var token = await firebase.CreateUserWithEmailAndPassAnync(email, password);
+
+                    await DisplayAlert("Успех", $"Пользователь с почтой {email} был зарегистрирован", "Ок");
+
+                    await Navigation.PopAsync();
+                    await Navigation.PushAsync(new MainPageCust());
+                }
+                catch (Exception ex)
                 {
-                    await DisplayAlert("Ошибка", "Такой пользователь уже существует", "Ок");
-                    return;
-                }*/
+                    await DisplayAlert("error", ex.Message, "Ok");
+                }
+
+                //Users user = new Users
+                //{
+                //    Name = name,
+                //    Password = password,
+                //    Email = email,
+                //};
+                //try { App.Db.SaveUser(user); }
+                //catch (SQLiteException)
+                //{
+                //    await DisplayAlert("Ошибка", "Такой пользователь уже существует", "Ок");
+                //    return;
+                //}
 
                 nameField.Text = "";
                 mailField.Text = "";
@@ -69,7 +77,6 @@ namespace MobileAutoCRM
 
                 errorText.Text = "";
 
-                await Navigation.PushAsync(new MainPageCust());
             }
         }
     }
