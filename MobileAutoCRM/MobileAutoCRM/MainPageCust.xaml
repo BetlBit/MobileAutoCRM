@@ -22,7 +22,7 @@
                                     <Label Text="{Binding Price}" />
                                     <Label Text="руб." />
                                 </StackLayout>
-                                <Label Text="В корзину? " />
+                                <Label Text="В корзину?7 " />
                                 <CheckBox Color="Gray" x:Name="checkAdd" IsChecked="False" />
                             </StackLayout>
                         </StackLayout>
