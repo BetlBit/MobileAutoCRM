@@ -1,10 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
 
 namespace MobileAutoCRM
 {
@@ -23,6 +18,12 @@ namespace MobileAutoCRM
         private void ShowServices()
         {
             serviceCollection.ItemsSource = App.Db.GetServices();
+        }
+
+        private void AddShoppingCart(object sender, EventArgs e)
+        {
+
+            
         }
     }
 }

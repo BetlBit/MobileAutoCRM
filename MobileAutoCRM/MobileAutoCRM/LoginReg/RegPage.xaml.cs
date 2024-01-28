@@ -39,6 +39,7 @@ namespace MobileAutoCRM
                 errorText.Text = "Пароль не одинаковый";
             else
             {
+                string name = nameField.Text;
                 string password = passField.Text;
                 string email = mailField.Text;
 
@@ -58,18 +59,18 @@ namespace MobileAutoCRM
                     await DisplayAlert("error", ex.Message, "Ok");
                 }
 
-                //Users user = new Users
-                //{
-                //    Name = name,
-                //    Password = password,
-                //    Email = email,
-                //};
-                //try { App.Db.SaveUser(user); }
-                //catch (SQLiteException)
-                //{
-                //    await DisplayAlert("Ошибка", "Такой пользователь уже существует", "Ок");
-                //    return;
-                //}
+                Users user = new Users
+                {
+                    Name = name,
+                    Password = password,
+                    Email = email,
+                };
+                try { App.Db.SaveUser(user); }
+                catch (SQLiteException)
+                {
+                    await DisplayAlert("Ошибка", "Такой пользователь уже существует", "Ок");
+                    return;
+                }
 
                 nameField.Text = "";
                 mailField.Text = "";

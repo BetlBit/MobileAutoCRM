@@ -8,7 +8,9 @@
             <Entry x:Name="nameService" Placeholder="Название услуги" />
             <Entry x:Name="priceService" Placeholder="Цена услуги" />
             <Editor x:Name="descService" Placeholder="Описание услуги" HeightRequest="200" />
+
+            
             <Button Text="Добавить услугу" Clicked="AddServiceButton" />
         </StackLayout>
     </ContentPage.Content>
-</ContentPage>
+</ContentPage>  

@@ -62,6 +62,7 @@ Xamarin.Google.Guava.ListenableFuture.dll
 Xamarin.GooglePlayServices.Base.dll
 Xamarin.GooglePlayServices.Basement.dll
 Xamarin.GooglePlayServices.Tasks.dll
+MobileAutoCRM.Android.dll
 androidx.versionedparcelable.versionedparcelable.aar
 androidx.arch.core.core-runtime.aar
 androidx.lifecycle.lifecycle-runtime.aar
@@ -108,4 +109,3 @@ androidx.asynclayoutinflater.asynclayoutinflater.aar
 androidx.legacy.legacy-support-core-ui.aar
 androidx.legacy.legacy-support-v4.aar
 androidx.browser.browser.aar
-MobileAutoCRM.Android.dll
