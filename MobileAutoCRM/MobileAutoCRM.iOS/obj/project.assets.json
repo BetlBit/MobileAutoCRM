@@ -2,6 +2,20 @@
   "version": 3,
   "targets": {
     "Xamarin.iOS,Version=v1.0": {
+      "CarouselView.FormsPlugin/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
+        }
+      },
       "FirebaseDatabase.net/4.2.0": {
         "type": "package",
         "dependencies": {
@@ -366,6 +380,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "4.2.0",
+          "System.Numerics.Vectors": "4.5.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2622",
           "sqlite-net-pcl": "1.8.116"
@@ -379,6 +394,20 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win": {
+      "CarouselView.FormsPlugin/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
+        }
+      },
       "FirebaseDatabase.net/4.2.0": {
         "type": "package",
         "dependencies": {
@@ -743,6 +772,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "4.2.0",
+          "System.Numerics.Vectors": "4.5.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2622",
           "sqlite-net-pcl": "1.8.116"
@@ -756,6 +786,20 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-arm64": {
+      "CarouselView.FormsPlugin/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
+        }
+      },
       "FirebaseDatabase.net/4.2.0": {
         "type": "package",
         "dependencies": {
@@ -1120,6 +1164,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "4.2.0",
+          "System.Numerics.Vectors": "4.5.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2622",
           "sqlite-net-pcl": "1.8.116"
@@ -1133,6 +1178,20 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x64": {
+      "CarouselView.FormsPlugin/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
+        }
+      },
       "FirebaseDatabase.net/4.2.0": {
         "type": "package",
         "dependencies": {
@@ -1497,6 +1556,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "4.2.0",
+          "System.Numerics.Vectors": "4.5.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2622",
           "sqlite-net-pcl": "1.8.116"
@@ -1510,6 +1570,20 @@
       }
     },
     "Xamarin.iOS,Version=v1.0/win-x86": {
+      "CarouselView.FormsPlugin/6.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Xamarin.Forms": "4.8.0.1821"
+        },
+        "compile": {
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
+        },
+        "runtime": {
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll": {},
+          "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll": {}
+        }
+      },
       "FirebaseDatabase.net/4.2.0": {
         "type": "package",
         "dependencies": {
@@ -1874,6 +1948,7 @@
         "framework": ".NETStandard,Version=v2.0",
         "dependencies": {
           "FirebaseDatabase.net": "4.2.0",
+          "System.Numerics.Vectors": "4.5.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2622",
           "sqlite-net-pcl": "1.8.116"
@@ -1888,6 +1963,28 @@
     }
   },
   "libraries": {
+    "CarouselView.FormsPlugin/6.0.0": {
+      "sha512": "6O+/NNod+u5bO8EwNJOq2D2bHfV0NdarAUjrIBn4q6bsxgtX+ONo4JmKL2yBtRmKizoDOjM+r5GwO9ewePTGZg==",
+      "type": "package",
+      "path": "carouselview.formsplugin/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "carouselview.formsplugin.6.0.0.nupkg.sha512",
+        "carouselview.formsplugin.nuspec",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/MonoAndroid/CarouselView.FormsPlugin.Droid.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.dll",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP.pri",
+        "lib/UAP10/CarouselView.FormsPlugin.UWP/CarouselView.FormsPlugin.UWP.xr.xml",
+        "lib/UAP10/FlipViewControl.xbf",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/Xamarin.iOS10/CarouselView.FormsPlugin.iOS.dll",
+        "lib/netstandard2.0/CarouselView.FormsPlugin.Abstractions.dll",
+        "lib/portable-net45+netcore45/CarouselView.FormsPlugin.Abstractions.dll"
+      ]
+    },
     "FirebaseDatabase.net/4.2.0": {
       "sha512": "Se6HQlm2QBHemcojMaZ0N4qHOp8H66dso3tGXiJUEaDpOwdHcNcUzF+bQDF8LfENCmBjxihYERHgL2IKZ5otwQ==",
       "type": "package",
@@ -2605,6 +2702,7 @@
   },
   "projectFileDependencyGroups": {
     "Xamarin.iOS,Version=v1.0": [
+      "CarouselView.FormsPlugin >= 6.0.0",
       "MobileAutoCRM >= 1.0.0",
       "Xamarin.Essentials >= 1.7.0",
       "Xamarin.Forms >= 5.0.0.2196"
@@ -2652,6 +2750,10 @@
     "frameworks": {
       "xamarinios10": {
         "dependencies": {
+          "CarouselView.FormsPlugin": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
           "Xamarin.Essentials": {
             "target": "Package",
             "version": "[1.7.0, )"

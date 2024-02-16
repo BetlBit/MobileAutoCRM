@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileAutoCRM.Android", "Mo
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileAutoCRM.iOS", "MobileAutoCRM\MobileAutoCRM.iOS\MobileAutoCRM.iOS.csproj", "{37707321-6794-4CEF-9362-978CE838F945}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MobileAutoCRM", "MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.csproj", "{6CC89D50-D44E-4BA0-A9E6-8E6F7B16D75F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MobileAutoCRM", "MobileAutoCRM\MobileAutoCRM\MobileAutoCRM.csproj", "{6CC89D50-D44E-4BA0-A9E6-8E6F7B16D75F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

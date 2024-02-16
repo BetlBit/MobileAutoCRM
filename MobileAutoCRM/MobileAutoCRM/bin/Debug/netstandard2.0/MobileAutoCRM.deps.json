@@ -11,6 +11,7 @@
         "dependencies": {
           "FirebaseDatabase.net": "4.2.0",
           "NETStandard.Library": "2.0.3",
+          "System.Numerics.Vectors": "4.5.0",
           "Xamarin.Essentials": "1.7.0",
           "Xamarin.Forms": "5.0.0.2622",
           "sqlite-net-pcl": "1.8.116",

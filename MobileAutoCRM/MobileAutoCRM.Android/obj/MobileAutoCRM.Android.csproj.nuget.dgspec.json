@@ -42,9 +42,9 @@
       "frameworks": {
         "monoandroid13.0": {
           "dependencies": {
-            "FirebaseDatabase.net": {
+            "CarouselView.FormsPlugin": {
               "target": "Package",
-              "version": "[4.0.4, )"
+              "version": "[6.0.0, )"
             },
             "FirebaseDatabase.net": {
               "target": "Package",
@@ -54,25 +54,13 @@
               "target": "Package",
               "version": "[1.7.0, )"
             },
-            "Xamarin.Essentials": {
-              "target": "Package",
-              "version": "[1.7.0, )"
-            },
-            "Xamarin.Firebase.Auth": {
-              "target": "Package",
-              "version": "[60.1142.1, )"
-            },
             "Xamarin.Firebase.Auth": {
               "target": "Package",
               "version": "[60.1142.1, )"
             },
             "Xamarin.Forms": {
               "target": "Package",
-              "version": "[5.0.0.2196, )"
-            },
-            "Xamarin.Forms": {
-              "target": "Package",
-              "version": "[5.0.0.2196, )"
+              "version": "[5.0.0.2622, )"
             }
           }
         }
@@ -128,6 +116,10 @@
               "target": "Package",
               "version": "[2.0.3, )",
               "autoReferenced": true
+            },
+            "System.Numerics.Vectors": {
+              "target": "Package",
+              "version": "[4.5.0, )"
             },
             "Xamarin.Essentials": {
               "target": "Package",

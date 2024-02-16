@@ -10,7 +10,7 @@
             </StackLayout>
 
             <CollectionView x:Name="serviceCollection">
-                <CollectionView.ItemTemplate>
+                <CollectionView.ItemTemplate x:Key="CheckBoxDataTemplate">
                     <DataTemplate>
 
                         <StackLayout Margin="0,0,0,10">
@@ -22,8 +22,8 @@
                                     <Label Text="{Binding Price}" />
                                     <Label Text="руб." />
                                 </StackLayout>
-                                <Label Text="В корзину?7 " />
-                                <CheckBox Color="Gray" x:Name="checkAdd" IsChecked="False" />
+                                <Label Text="В корзину?" />
+                                <CheckBox Color="Gray" x:Name="checkAdd" />
                             </StackLayout>
                         </StackLayout>
 
