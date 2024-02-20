@@ -1,5 +1,6 @@
 ﻿using MobileAutoCRM.DBTables;
 using SQLite;
+using SQLitePCL;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -47,9 +48,29 @@ namespace MobileAutoCRM
             return _connection.Insert(service);
         }
 
+        
+        public int SaveShopping(Shopping shopping)
+        {
+            return _connection.Insert(shopping);
+        }
+        
+
         public int DeleteService(int id)
         {
             return _connection.Delete<Service>(id);
+        }
+
+
+
+        public int  CleanShopping()
+        {
+           return  _connection.DeleteAll < Shopping>();
+        }
+
+
+        public List<Shopping> GetAllShoping()
+        {
+            return _connection.Table<Shopping>().ToList();
         }
 
 

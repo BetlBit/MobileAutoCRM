@@ -23,8 +23,6 @@
                                     <Label Text="{Binding Price}" />
                                     <Label Text="руб." />
                                 </StackLayout>
-                                <Label Text="В корзину?" />
-                                <CheckBox Color="Gray" x:Name="checkAdd" />
                             </StackLayout>
                         </StackLayout>
 
@@ -33,7 +31,7 @@
             </CollectionView>
 
             <StackLayout>
-                <Button x:Name="buttonAdd" Text="В корзину" Clicked="AddShoppingCart"  />
+                <Button x:Name="buttonAdd" Text="В корзину" Clicked="ToShoppingCart"  />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

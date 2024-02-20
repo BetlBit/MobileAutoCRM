@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\MobileAutoCRM",
+    "\\MobileAutoCRM\\MobileAutoCRM"
   ],
-  "SelectedNode": "\\MobileAutoCRM.sln",
+  "SelectedNode": "\\MobileAutoCRM\\MobileAutoCRM\\MainPageCust.xaml",
   "PreviewInSolutionExplorer": false
 }
