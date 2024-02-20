@@ -1,4 +1,5 @@
-﻿using SQLite;
+﻿using MobileAutoCRM.DBTables;
+using SQLite;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -26,6 +27,12 @@ namespace MobileAutoCRM
             catch (SQLiteException)
             {
                 Console.WriteLine("Ошибка создания таблицы Users - она уже создана");
+            }
+
+            try { _connection.CreateTable<Shopping>(); }
+            catch (SQLiteException)
+            {
+                Console.WriteLine("Ошибка создания таблицы Shopping - она уже создана");
             }
 
         }
