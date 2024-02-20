@@ -9,7 +9,7 @@
                 <Label Text="Здесь будут все услуги, что мы можем вам предложить:" FontSize="20" FontAttributes="Bold" />
             </StackLayout>
 
-            <CollectionView x:Name="serviceCollection">
+            <CollectionView SelectionMode="Multiple" SelectionChanged="OnCollectionViewSelectionChanged" x:Name="serviceCollection">
                 <CollectionView.ItemTemplate x:Key="CheckBoxDataTemplate">
                     <DataTemplate>
 
@@ -18,12 +18,11 @@
                                 <Label Text="{Binding ID}" IsVisible="False" />
                                 <Label Text="{Binding Name}" />
                                 <Label Text="{Binding Description}" />
+                                <Image Source="{Binding Image}" />
                                 <StackLayout Orientation="Horizontal" >
                                     <Label Text="{Binding Price}" />
                                     <Label Text="руб." />
                                 </StackLayout>
-                                <Label Text="В корзину?" />
-                                <CheckBox Color="Gray" x:Name="checkAdd" />
                             </StackLayout>
                         </StackLayout>
 
@@ -32,7 +31,7 @@
             </CollectionView>
 
             <StackLayout>
-                <Button x:Name="buttonAdd" Text="В корзину" Clicked="AddShoppingCart"  />
+                <Button x:Name="buttonAdd" Text="В корзину" Clicked="ToShoppingCart"  />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

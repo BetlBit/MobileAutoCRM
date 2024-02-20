@@ -5372,6 +5372,14 @@
             "target": "Package",
             "version": "[6.0.0, )"
           },
+          "CarouselView.FormsPlugin": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "FirebaseDatabase.net": {
+            "target": "Package",
+            "version": "[4.0.4, )"
+          },
           "FirebaseDatabase.net": {
             "target": "Package",
             "version": "[4.0.4, )"
@@ -5380,9 +5388,21 @@
             "target": "Package",
             "version": "[1.7.0, )"
           },
+          "Xamarin.Essentials": {
+            "target": "Package",
+            "version": "[1.7.0, )"
+          },
           "Xamarin.Firebase.Auth": {
             "target": "Package",
             "version": "[60.1142.1, )"
+          },
+          "Xamarin.Firebase.Auth": {
+            "target": "Package",
+            "version": "[60.1142.1, )"
+          },
+          "Xamarin.Forms": {
+            "target": "Package",
+            "version": "[5.0.0.2622, )"
           },
           "Xamarin.Forms": {
             "target": "Package",

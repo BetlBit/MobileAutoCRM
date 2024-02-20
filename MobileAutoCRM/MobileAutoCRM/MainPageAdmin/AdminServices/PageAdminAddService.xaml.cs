@@ -16,6 +16,7 @@ namespace MobileAutoCRM
         {
             string name = nameService.Text.Trim();
             int price = Convert.ToInt32(priceService.Text.Trim());
+            string image = imageService.Text.Trim();
             string desc = descService.Text.Trim();
             if (name.Length <= 1)
             {
@@ -38,11 +39,13 @@ namespace MobileAutoCRM
                 Name = name,
                 Price = price,
                 Description = desc,
+                Image = image,
             };
             App.Db.SaveService(service);
 
             nameService.Text = "";
             priceService.Text = "";
+            imageService.Text = "";
             descService.Text = "";
         }
 
