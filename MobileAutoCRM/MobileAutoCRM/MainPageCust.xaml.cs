@@ -31,35 +31,17 @@ namespace MobileAutoCRM
 
         public void OnCollectionViewSelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            var previous = e.PreviousSelection;
-            // var current = e.CurrentSelection;
-            //Console.WriteLine(current[0]);
-            //Console.WriteLine(current[1]);
 
+            //Забрать данные из выбранных элементов
 
             App.Db.CleanShopping();
-            
-
-
-
-            /// 
-
 
             for( int i = 0; i < e.CurrentSelection.Count; i++)
             {
-                // println( "dkfjlskdjf e.CurrentSelection.")
 
                 e.CurrentSelection[i].ToString();
 
                 Service elementSelect  = e.CurrentSelection[i] as Service;
-                Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-                Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-                Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-                Console.WriteLine("!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-
-                Console.WriteLine(" our select Price = " + elementSelect.Price );
-
-                // elementSelect.
 
                 Shopping a = new Shopping
                 {
@@ -70,34 +52,11 @@ namespace MobileAutoCRM
                     Count = 1,
                 };
 
-                //Shopping a = new Shopping(
-                //    Name = elementSelect.Name,
-                //    Price = elementSelect.Price,
-                //    Image = elementSelect.Image,
-                //    Descriptor = elementSelect.Description, 
-                //    Count   = 1,
-                //    );
-
 
                 App.Db.SaveShopping(a);
-
-                Console.WriteLine(elementSelect.ToString());
+                //Console.WriteLine(elementSelect.ToString());
 
             } 
-
-            //Shopping current = new Shopping
-            //{
-            //    Name = name,
-            //    Price = price,
-            //    Description = desc,
-            //    Image = image,
-            //};
-            //App.Db.SaveService(current);
-
-            //nameService.Text = "";
-            //priceService.Text = "";
-            //imageService.Text = "";
-            //descService.Text = "";
         }
 
         private async void ToShoppingCart(object sender, EventArgs e)

@@ -13,15 +13,16 @@
                 <CollectionView.ItemTemplate x:Key="CheckBoxDataTemplate">
                     <DataTemplate>
 
-                        <StackLayout Margin="0,0,0,10">
+                        <StackLayout Margin="0,0,0,15">
                             <StackLayout BackgroundColor="LightCyan" >
                                 <Label Text="{Binding ID}" IsVisible="False" />
-                                <Label Text="{Binding Name}" />
+                                <Label Text="{Binding Name}" FontSize="16" FontAttributes="Bold" HorizontalOptions="Center" />
                                 <Label Text="{Binding Description}" />
-                                <Image Source="{Binding Image}" />
+                                <Image Source="{Binding Image}" HorizontalOptions="Center" />
                                 <StackLayout Orientation="Horizontal" >
-                                    <Label Text="{Binding Price}" />
-                                    <Label Text="руб." />
+                                    <Label Text="Цена услуги: " FontAttributes="Bold" />
+                                    <Label Text="{Binding Price}" FontAttributes="Bold" />
+                                    <Label Text="руб." Margin="0,0,0,15" FontAttributes="Bold" />
                                 </StackLayout>
                             </StackLayout>
                         </StackLayout>

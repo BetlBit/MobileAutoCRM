@@ -14,15 +14,6 @@ namespace MobileAutoCRM
             InitializeComponent();
         }
 
-        private async void Button_Clicked(object sender, EventArgs e)
-        {
-            using (var firebase = new FirebaseClient("https://mobileautocrm-default-rtdb.firebaseio.com/"))
-            {
-                var result = await firebase.Child("test_key").OnceSingleAsync<string>();
-                await DisplayAlert("title", result, "Ok");
-            }
-        }
-
         private async void RegPageToCustPage(object sender, EventArgs e)
         {
             if (string.IsNullOrEmpty(nameField.Text))

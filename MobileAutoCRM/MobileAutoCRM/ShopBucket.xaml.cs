@@ -16,7 +16,22 @@ namespace MobileAutoCRM
 		{
 			InitializeComponent ();
 
-	      	shopBucketCollection.ItemsSource =	App.Db.GetAllShoping();
+	      	shopBucketCollection.ItemsSource = App.Db.GetAllShoping();
 		}
-	}
+
+        private async void EndPanel(object sender, EventArgs e)
+        {
+            if (label.Text == "")
+                await DisplayAlert("Ошибка", "Выберите дату", "ОK");
+            else
+            {
+                await DisplayAlert("Уведомление", "Покупка была произведена", "ОK");
+            }
+        }
+
+        private async void DatePicker_DateSelected(object sender, DateChangedEventArgs e)
+        {
+            label.Text = e.NewDate.ToString("dd/MM/yyyy");
+        }
+    }
 }

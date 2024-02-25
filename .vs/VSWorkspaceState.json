@@ -2,8 +2,10 @@
   "ExpandedNodes": [
     "",
     "\\MobileAutoCRM",
-    "\\MobileAutoCRM\\MobileAutoCRM"
+    "\\MobileAutoCRM\\MobileAutoCRM",
+    "\\MobileAutoCRM\\MobileAutoCRM\\LoginReg",
+    "\\MobileAutoCRM\\MobileAutoCRM\\MainPageAdmin"
   ],
-  "SelectedNode": "\\MobileAutoCRM\\MobileAutoCRM\\MainPageCust.xaml",
+  "SelectedNode": "\\MobileAutoCRM\\MobileAutoCRM\\LoginReg\\RegPage.xaml",
   "PreviewInSolutionExplorer": false
 }
