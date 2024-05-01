@@ -71,7 +71,7 @@
     <EmbeddedResource Update="LoginReg\RegPage.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
-    <EmbeddedResource Update="ShopBucket.xaml">
+    <EmbeddedResource Update="mystylesDetail.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

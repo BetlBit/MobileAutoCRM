@@ -2,11 +2,16 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileAutoCRM.PageAdminDelService">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/mystyles.css" />
+    </ContentPage.Resources>
+
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Введите код услуги, которую хотите удалить:" />
+        <StackLayout Margin="10,20,10,20">
+            <Label Text="Введите код услуги, которую хотите удалить:" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" />
             <Entry x:Name="idField" Placeholder="Код услуги" />
-            <Button x:Name="buttonDelService" Text="Удалить" Clicked="DeleteService" />
+            <Button StyleClass="buttonMain" x:Name="buttonDelService" Text="Удалить" Clicked="DeleteService" BorderWidth="1" BorderColor="#698080" />
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

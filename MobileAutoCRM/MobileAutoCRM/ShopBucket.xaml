@@ -2,29 +2,38 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileAutoCRM.ShopBucket">
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/mystyles.css" />
+    </ContentPage.Resources>
+
     <ContentPage.Content>
         <StackLayout>
-            <StackLayout>
-                <Label Text="Ваша корзина:" FontSize="20" FontAttributes="Bold" />
+            <StackLayout Margin="10,20,10,20">
+                <Label Text="Ваша корзина:" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" />
             </StackLayout>
 
-            <CollectionView x:Name="shopBucketCollection">
+            <CollectionView x:Name="shopBucketCollection" Margin="15">
                 <CollectionView.ItemTemplate>
                     <DataTemplate>
 
-                        <StackLayout Margin="0,0,0,15">
-                            <StackLayout BackgroundColor="LightCyan" >
-                                <Label Text="{Binding Name}" FontSize="16" FontAttributes="Bold" HorizontalOptions="Center" />
-                                <Label Text="{Binding Description}" />
-                                <Image Source="{Binding Image}" HorizontalOptions="Center" />
-                                <StackLayout Orientation="Horizontal" >
-                                    <Label Text="Цена услуги: " FontAttributes="Bold" />
-                                    <Label Text="{Binding Price}" FontAttributes="Bold" />
-                                    <Label Text="руб." Margin="0,0,0,15" FontAttributes="Bold" />
+                        
+                            <StackLayout Margin="5">
+                            <Frame BorderColor="#698080">
+                                <StackLayout BackgroundColor="#FFFFFF" >
+                                    <Label Text="{Binding Name}" FontSize="16" FontAttributes="Bold" HorizontalOptions="Center" />
+                                    <Label Text="{Binding Description}" />
+                                    <Image Source="{Binding Image}" HorizontalOptions="Center" />
+                                    <StackLayout Orientation="Horizontal" >
+                                        <Label Text="Цена услуги: " FontAttributes="Bold" />
+                                        <Label Text="{Binding Price}" FontAttributes="Bold" />
+                                        <Label Text="руб." Margin="0,0,0,15" FontAttributes="Bold" />
+                                    </StackLayout>
+
                                 </StackLayout>
-                                
-                            </StackLayout>
+                            </Frame>
                         </StackLayout>
+                        
 
                     </DataTemplate>
                 </CollectionView.ItemTemplate>
@@ -32,7 +41,7 @@
 
             <StackLayout>
                 <Label Text=""  x:Name="label" IsVisible="False"></Label>
-                <Label FontSize="20" FontAttributes="Bold">Выберите дату оказания услуг:</Label>
+                <Label FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center">Выберите дату оказания услуг:</Label>
                 <DatePicker x:Name="NewDate" Format="D" DateSelected="DatePicker_DateSelected">
                     <DatePicker.MinimumDate>1/01/2014</DatePicker.MinimumDate>
                     <DatePicker.MaximumDate>12/31/2024</DatePicker.MaximumDate>

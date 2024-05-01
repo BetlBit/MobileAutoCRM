@@ -41,3 +41,4 @@ C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\bin\Debug\nets
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\bin\Debug\netstandard2.0\MobileAutoCRM.Android.pdb
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\MobileAutoCRM.csproj.CopyComplete
 C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\ShopBucket.xaml.g.cs
+C:\Users\Tobias\Desktop\MobileAutoCRM\MobileAutoCRM\MobileAutoCRM\obj\Debug\netstandard2.0\mystyles.css.g.cs

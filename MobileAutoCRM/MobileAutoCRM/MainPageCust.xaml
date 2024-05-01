@@ -2,38 +2,46 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MobileAutoCRM.MainPageCust">
-    
+
+    <ContentPage.Resources>
+        <StyleSheet Source="/mystyles.css" />
+    </ContentPage.Resources>
+
     <ContentPage.Content>
-        <StackLayout>
-            <StackLayout>
-                <Label Text="Здесь будут все услуги, что мы можем вам предложить:" FontSize="20" FontAttributes="Bold" />
+        <StackLayout BackgroundColor="#EBFFFF" >
+            <StackLayout Margin="10,10,10,-10" >
+                <Label Text="Здесь будут все услуги, что мы можем вам предложить:" FontSize="20" FontAttributes="Bold" HorizontalTextAlignment="Center" />
             </StackLayout>
 
-            <CollectionView SelectionMode="Multiple" SelectionChanged="OnCollectionViewSelectionChanged" x:Name="serviceCollection">
-                <CollectionView.ItemTemplate x:Key="CheckBoxDataTemplate">
+            <CollectionView SelectionMode="Multiple" SelectionChanged="OnCollectionViewSelectionChanged" x:Name="serviceCollection" Margin="10" >
+                <CollectionView.ItemTemplate x:Key="CheckBoxDataTemplate" >
                     <DataTemplate>
 
-                        <StackLayout Margin="0,0,0,15">
-                            <StackLayout BackgroundColor="LightCyan" >
-                                <Label Text="{Binding ID}" IsVisible="False" />
-                                <Label Text="{Binding Name}" FontSize="16" FontAttributes="Bold" HorizontalOptions="Center" />
-                                <Label Text="{Binding Description}" />
-                                <Image Source="{Binding Image}" HorizontalOptions="Center" />
-                                <StackLayout Orientation="Horizontal" >
-                                    <Label Text="Цена услуги: " FontAttributes="Bold" />
-                                    <Label Text="{Binding Price}" FontAttributes="Bold" />
-                                    <Label Text="руб." Margin="0,0,0,15" FontAttributes="Bold" />
+                        <StackLayout Padding="10" >
+                            <Frame BorderColor="#698080" >
+                                    <StackLayout BackgroundColor="#FFFFFF" >
+                                    <Label Text="{Binding ID}" IsVisible="False" />
+                                    <Label Text="{Binding Name}" FontSize="16" FontAttributes="Bold" HorizontalOptions="Center" />
+                                    <Label Text="{Binding Description}" Margin="20,0,0,0" />
+                                    <Image Source="{Binding Image}" HorizontalOptions="Center" Aspect="AspectFill" />
+                                    <StackLayout Orientation="Horizontal" Margin="20,0,0,0" >
+                                        <Label Text="Цена услуги: " FontAttributes="Bold" />
+                                        <Label Text="{Binding Price}" FontAttributes="Bold" />
+                                        <Label Text="руб." Margin="0,0,0,15" FontAttributes="Bold" />
+                                    </StackLayout>
                                 </StackLayout>
-                            </StackLayout>
+                            </Frame>
                         </StackLayout>
 
                     </DataTemplate>
+                    
                 </CollectionView.ItemTemplate>
             </CollectionView>
 
             <StackLayout>
-                <Button x:Name="buttonAdd" Text="В корзину" Clicked="ToShoppingCart"  />
+                <Button StyleClass="buttonMain" x:Name="buttonAdd" Text="В корзину" Clicked="ToShoppingCart" Margin="40,0,40,12" BackgroundColor="#FFFFFF" BorderWidth="1" BorderColor="#698080"  />
             </StackLayout>
+
         </StackLayout>
     </ContentPage.Content>
 

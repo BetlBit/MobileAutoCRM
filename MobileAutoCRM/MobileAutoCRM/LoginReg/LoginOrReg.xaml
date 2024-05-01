@@ -1,15 +1,20 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="MobileAutoCRM.LoginOrReg">
+             x:Class="MobileAutoCRM.LoginOrReg" >
+    
+    <ContentPage.Resources>
+        <StyleSheet Source="/mystyles.css" />
+    </ContentPage.Resources>
+    
     <ContentPage.Content>
-        <StackLayout>
-            <Label Text="Авторизация" FontSize="25" />
+        <StackLayout Margin="10,100,10,0">
+            <Label Text="Авторизация" FontSize="25" HorizontalOptions="Center" />
             <Entry x:Name="mailField" Placeholder="Введите почту" />
-            <Entry x:Name="passField" Placeholder="Введите пароль" IsPassword="True"  />
-            <Button x:Name="buttonLogin" Text="Войти" Clicked="Login" />
-            <Button x:Name="buttonToReg" Text="Зарегистрироваться" Clicked="ToRegPage" />
-            
+            <Entry x:Name="passField" Placeholder="Введите пароль" IsPassword="True" />
+            <Button StyleClass="buttonMain" x:Name="buttonLogin" Text="Войти" Clicked="Login" BorderWidth="1" BorderColor="#698080" />
+            <Button StyleClass="buttonMain" x:Name="buttonToReg" Text="Зарегистрироваться" Clicked="ToRegPage" BorderWidth="1" BorderColor="#698080" />
+
             <Label x:Name="errorText" Text="" TextColor="Red" FontSize="15" />
         </StackLayout>
     </ContentPage.Content>
